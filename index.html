@@ -11,24 +11,27 @@
     <div class="container">
       <div class="col1 active-bg">
         <div class="justin">
-          <p class="font-size-lg">Justin</p>
+          <p class="font-size-lg center">Justin</p>
         </div>
-        <div class="container3">
-          <p class="font-size-md">Guess number:</p>
+        <form class="show">
+          <p class="font-size-md">Guess a number  1-100:</p>
           <input type="text"></input>
-        </div>
-        <div class="container4">
           <button type="text" class="font-size-md submit">Submit</button>
-        </div>
+        </form>
+        <p class="font-size-md center hide">Waiting...</p>
       </div>
       <div class="col2 inactive-bg">
         <div class="eric">
-          <p class="font-size-lg">Eric</p>
+          <p class="font-size-lg center">Eric</p>
         </div>
-        <div class="col2">
-          <p class="font-size-md">Waiting...</p>
-        </div>
+        <form class="hide">
+          <p class="font-size-md">Guess a number  1-100:</p>
+          <input type="text"></input>
+          <button type="text" class="font-size-md submit">Submit</button>
+        </form>
+          <p class="font-size-md center show">Waiting...</p>
       </div>
+        <p class="result"></p>
     </div>
     <script src="main.js"></script>
   </body>

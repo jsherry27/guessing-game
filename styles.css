@@ -12,10 +12,10 @@ body {
   display: grid;
   justify-content: center;
   align-content: center;
-  font-weight: bold;
 }
 .active-bg {
   background-color: rgb(118, 210, 240);
+  font-weight: bold;
 }
 .col2 {
   display: grid;
@@ -32,12 +32,34 @@ body {
 .eric {
   display: grid;
 }
-.container3 {
-  display: grid;
+.col1 form,
+.col2 form {
   grid-template-rows: 2fr 1fr;
 }
-.container4 {
+.center {
+  justify-self: center;
+}
+.hide {
+  display: none;
+}
+.show {
   display: grid;
+}
+.winner {
+  background-color: rgba(159, 255, 182, 0.951);
+}
+.loser {
+  background-color: rgb(230, 24, 24);
+}
+.result {
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  white-space: nowrap;
+  font-size: 75px;
+  background-color: black;
+  color: white;
 }
 button {
   background-color: #2f6185;
@@ -52,7 +74,6 @@ input {
   border: 1px solid transparent;
   padding: 6px 10px;
 }
-
 .font-size-lg {
   font-size: 75px;
 }
