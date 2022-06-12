@@ -7,7 +7,6 @@
 }
 .col1 {
   display: grid;
-  grid-column: 1;
   background-color: rgb(118, 210, 240);
   justify-content: center;
   align-content: center;
@@ -15,18 +14,37 @@
 }
 .col2 {
   display: grid;
-  grid-column: 2;
   background-color: whitesmoke;
-  opacity: 0.7;
+  opacity: 0.6;
   justify-content: center;
   align-content: center;
 }
-
-/* .container2 {
+.justin {
   display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-} */
+}
+.eric {
+  display: grid;
+}
+.container3 {
+  display: grid;
+  grid-template-rows: 2fr 1fr;
+}
+.container4 {
+  display: grid;
+}
+button {
+  background-color: #2f6185;
+  color: white;
+  margin-top: 10px;
+  padding: 6px;
+  border-radius: 8px;
+  border: 1px solid transparent;
+}
+input {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 6px 0;
+}
 
 .font-size-lg {
   font-size: 75px;
