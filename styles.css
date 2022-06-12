@@ -1,3 +1,6 @@
+body {
+  margin: 0;
+}
 .container {
   display: grid;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -7,17 +10,21 @@
 }
 .col1 {
   display: grid;
-  background-color: rgb(118, 210, 240);
   justify-content: center;
   align-content: center;
   font-weight: bold;
 }
+.active-bg {
+  background-color: rgb(118, 210, 240);
+}
 .col2 {
   display: grid;
-  background-color: whitesmoke;
-  opacity: 0.6;
   justify-content: center;
   align-content: center;
+}
+.inactive-bg {
+  background-color: whitesmoke;
+  color: #656565;
 }
 .justin {
   display: grid;
@@ -43,7 +50,7 @@ button {
 input {
   border-radius: 8px;
   border: 1px solid transparent;
-  padding: 6px 0;
+  padding: 6px 10px;
 }
 
 .font-size-lg {
